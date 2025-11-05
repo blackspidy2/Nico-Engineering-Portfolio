@@ -1,9 +1,0 @@
-<header>
-  <h1>Nico Are</h1>
-  <p>Engineering Portfolio</p>
-</header>
-
-<section id="projects">
-  <h2>Projects</h2>
-  <p>ESP32 LED Lamp Project</p>
-</section>
