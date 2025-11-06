@@ -1,16 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nico’s Portfolio</title>
 
-  <!-- This tells the browser to load the CSS file -->
-  <link rel="stylesheet" href="style.css">
+  <!-- Link to the CSS file -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Hello, world!</h1>
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+    <p>Engineering | Embedded Systems | Code + Hardware</p>
+  </header>
 
-  <!-- This tells the browser to load and run the JS file -->
+  <section id="projects">
+    <h2>Featured Project</h2>
+    <p id="project-description">
+      This LED lamp project uses an ESP32 microcontroller and PWM to control color intensity.
+    </p>
+    <button id="colorButton">Change Background Color</button>
+  </section>
+
+  <footer>
+    <p>© 2025 Nico Are</p>
+  </footer>
+
+  <!-- Link to the JavaScript file -->
   <script src="script.js"></script>
 </body>
 </html>
